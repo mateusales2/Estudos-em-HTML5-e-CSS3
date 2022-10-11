@@ -1,0 +1,114 @@
+html, body {
+    margin: 0%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow-x: hidden;
+    
+}
+body {
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    
+}
+
+.wrapper {
+    width: 2100px;
+    height: 100vh;
+    display: flex;
+    background-color: none;
+   
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+    
+}
+.menu {
+    width: 13%;
+    background-color: #A3AFBF;
+    padding: 10px 20px 0px;
+    color: white;
+}
+
+.menu a:hover{
+    color: #048ABF;
+}
+
+
+.menu h1{
+    font-size: 25px;
+}
+
+.header {
+    background-color: #0367A6;
+    height: 140px;
+   
+   
+
+}
+
+
+
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    height: 100vh;
+}
+
+.content h1{
+    font-size:large
+}
+.footer {
+    background-color: #048ABF;
+    min-height: 150px;
+}
+
+.footer h1{
+    color: #ffffff;
+    font-size: medium;
+    position:relative;
+    left: 3%;
+    padding: 0%;
+    display: flex;
+}
+.header h1{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top:25%;
+    right:3%
+    
+}
+
+.header figure{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    position: relative;
+    bottom: 55%;
+   
+   
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #A3AFBF;
+}
+
+
+thead{
+    background-color: black;
+    color: white;
+}
